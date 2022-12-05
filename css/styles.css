@@ -53,15 +53,30 @@ body{
   text-align: left;
   border: 1px solid #DDD;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 #container h1{
   font-size: 20px;
+  align-self: center;
 }
 
 #post
 {
   padding: 1em;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#post #text{
+   align-self: center;
+}
+#post #anya{
+ 
+  justify-items: center;
+  align-self: center;
 }
 
 #footer
@@ -71,3 +86,4 @@ body{
   text-align: center;
   padding: 10px 0 10px 0;
 }
+
